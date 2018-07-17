@@ -1,0 +1,11 @@
+---
+  version: '3.5'
+      
+  services:
+    mlr-legacy-transformer:
+      build: .
+      image: mlr-legacy-transformer-service
+      ports:
+        - "443:443"
+      env_file:
+        - docker-compose.env

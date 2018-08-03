@@ -10,7 +10,7 @@
   services:
     mlr-legacy-transformer-service:
       build: .
-      image: mlr-ddot-transformer-service
+      image: mlr-legacy-transformer-service
       secrets:
         - source: ssl_crt
           target: /home/python/certificates/wildcard-ssl.crt

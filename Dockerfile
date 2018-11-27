@@ -3,7 +3,7 @@ LABEL maintainer="gs-w_eto_eb_federal_employees@usgs.gov"
 
 ENV repo_name=usgs-python-centralized
 ENV artifact_id=usgs-wma-mlr-legacy-transformer
-ENV artifact_version=0.7.0.dev0
+ENV artifact_version=0.7.0
 ENV protocol=https
 ENV listening_port=7010
 ENV authorized_roles=test_default
